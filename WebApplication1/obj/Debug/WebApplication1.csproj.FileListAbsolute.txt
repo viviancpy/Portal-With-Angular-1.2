@@ -21,6 +21,5 @@ C:\Code\ANZ\P4\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Code\ANZ\P4\WebApplication1\bin\System.Net.Http.Formatting.xml
 C:\Code\ANZ\P4\WebApplication1\bin\System.Web.Http.xml
 C:\Code\ANZ\P4\WebApplication1\bin\System.Web.Http.WebHost.xml
-C:\Code\ANZ\P4\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Code\ANZ\P4\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Code\ANZ\P4\WebApplication1\obj\Debug\WebApplication1.pdb

@@ -1,3 +1,3 @@
-﻿app.controller('dashboardController', function ($scope) {
-    $scope.exploreNearby = "New York";
+﻿mainApp.controller('dashboardController', function ($scope) {
+    $scope.title = "Dashboard";
 });
