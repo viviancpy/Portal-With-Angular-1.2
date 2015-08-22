@@ -42,7 +42,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.suo
-*.suo
 *.user
 _ReSharper.*
 bin
