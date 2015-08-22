@@ -2,17 +2,17 @@
 app.config(function ($routeProvider) {
 
     $routeProvider
-        .when("/alerts", {
-            controller: "alertsController",
-            templateUrl: "/app/views/alertsMain.html"
+        .when("/admin", {
+            controller: "adminController",
+            templateUrl: "/app/components/admin/adminView.html"
         })
         .when("/support", {
             controller: "supportController",
-            templateUrl: "/app/views/supportMain.html"
+            templateUrl: "/app/components/support/supportView.html"
         })
         .when("/dashboard", {
             controller: "dashboardController",
-            templateUrl: "/app/views/dashboardMain.html"
+            templateUrl: "/app/components/dashboard/dashboardView.html"
         });
     $routeProvider.otherwise({ redirectTo: "/dashboard" });
 

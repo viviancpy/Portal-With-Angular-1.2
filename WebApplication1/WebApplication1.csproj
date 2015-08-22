@@ -94,12 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-    <Content Include="app\controllers\alertsController.js" />
-    <Content Include="app\controllers\dashboardController.js" />
-    <Content Include="app\controllers\supportController.js" />
-    <Content Include="app\views\dashboardMain.html" />
-    <Content Include="app\views\supportMain.html" />
-    <Content Include="app\views\alertsMain.html" />
+    <Content Include="app\components\admin\adminController.js" />
+    <Content Include="app\components\dashboard\dashboardController.js" />
+    <Content Include="app\components\support\supportController.js" />
+    <Content Include="app\components\dashboard\dashboardView.html" />
+    <Content Include="app\components\support\supportView.html" />
+    <Content Include="app\components\admin\adminView.html" />
     <Content Include="Content\bootstrap.cerulean.css" />
     <Content Include="Content\bootstrap.cerulean.min.css" />
     <Content Include="Content\bootstrap\bootstrap.css">
@@ -235,9 +235,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\directives\" />
-    <Folder Include="app\filters\" />
     <Folder Include="app\services\" />
+    <Folder Include="app\shared\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
