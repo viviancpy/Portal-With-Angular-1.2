@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -96,6 +97,13 @@
     <Content Include="app\app.js" />
     <Content Include="app\components\admin\adminController.js" />
     <Content Include="app\components\dashboard\dashboardController.js" />
+    <Content Include="app\components\dashboard\LeftNavView\LeftNavViewTemplate.html" />
+    <Content Include="app\components\dashboard\LeftNavView\LeftNavViewController.js" />
+    <Content Include="app\components\dashboard\LeftNavView\LeftNavViewDirective.js" />
+    <Content Include="app\components\dashboard\TopView\TopView.html" />
+    <Content Include="app\components\dashboard\WorkspaceView\WorkspaceViewController.js" />
+    <Content Include="app\components\dashboard\WorkspaceView\WorkspaceViewTemplate.html" />
+    <Content Include="app\components\dashboard\WorkspaceView\WorkspaceViewDirective.js" />
     <Content Include="app\components\support\supportController.js" />
     <Content Include="app\components\dashboard\dashboardView.html" />
     <Content Include="app\components\support\supportView.html" />
